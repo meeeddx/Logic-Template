@@ -95,7 +95,7 @@ Feel free to contribute by submitting pull requests or opening issues. We apprec
 ---
 
 ## License
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source, and you are free to modify and distribute it under your chosen license.
 
 ---
 
