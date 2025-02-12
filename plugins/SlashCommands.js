@@ -48,10 +48,6 @@ module.exports = async (client = {}) => {
           if (!command.data) {
             continue;
           }
-
-          // Log command data for debugging
-
-          // Validate command name and description lengths
           const nameLength = command.data.name.length;
           const descriptionLength = command.data.description.length;
 

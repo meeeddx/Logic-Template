@@ -7,7 +7,7 @@ module.exports = {
       activities: [
         {
           name: "Logic Template",
-          type: ActivityType.Competing,
+          type: ActivityType.Watching, // Competing, Listening, Playing, Streaming, Watching
         },
       ],
     });

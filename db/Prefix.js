@@ -16,7 +16,6 @@ const db = new sqlite3.Database(dbPath, (err) => {
     }
 });
 
-// Create table if not exists
 db.run(`
     CREATE TABLE IF NOT EXISTS prefixes (
         guild_id TEXT PRIMARY KEY,

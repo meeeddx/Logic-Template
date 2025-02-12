@@ -1,5 +1,5 @@
 require("dotenv").config();
-const client = require("./client/api");
+const client = require("./client/Client");
 const loadCommands = require("./components/Commands");
 const loadSlashCommands = require("./components/SlashCommands");
 const loadEvents = require("./components/Events");

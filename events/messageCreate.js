@@ -30,7 +30,7 @@ module.exports = {
       const errorEmbed = new EmbedBuilder()
         .setColor("Yellow")
         .setDescription(
-          `⚠️ Oops! Something went wrong while processing your request. If this issue persists, please **[Contact Support](https://discord.gg/Qc9zuygR4k)**.`
+          `⚠️ Oops! Something went wrong while processing your request. If this issue persists, please **[Contact Support](https://discord.gg/2EKYrZ4nbP)**.`
         );
 
       await message.reply({ embeds: [errorEmbed] });
