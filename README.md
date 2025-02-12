@@ -62,7 +62,7 @@ MONGO_DB=
 
 ## File Structure
 ```
-📁 discord-bot
+📁 Logic-Template
  ├── 📁 client         # Client handling
  ├── 📁 commands       # Command files
  ├── 📁 components     # UI components
@@ -70,12 +70,10 @@ MONGO_DB=
  ├── 📁 db            # Database handling
  ├── 📁 events        # Bot event handlers
  ├── 📁 func          # Utility functions
- ├── 📁 images        # Image assets
- ├── 📁 mod           # Moderation tools
  ├── 📁 models        # Database models (Mongoose/SQLite3)
  ├── 📁 plugins       # Extra functionalities
  ├── 📁 slashCommands # Slash command handling
- ├── 📄 .env          # Environment variables
+ ├── 📄 .env.example  # Environment variables
  ├── 📄 .gitignore    # Git ignore file
  ├── 📄 index.js      # Main bot file
  ├── 📄 package.json  # Dependencies and scripts
