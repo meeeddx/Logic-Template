@@ -6,7 +6,7 @@ module.exports = {
     client.user.setPresence({
       activities: [
         {
-          name: "Logic Staff",
+          name: "Logic Template",
           type: ActivityType.Competing,
         },
       ],
