@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const colors = require("colors");
-let control = true;
+let control = false;
 
 const connectToDatabase = async () => {
   if (!control) {
