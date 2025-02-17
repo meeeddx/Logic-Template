@@ -77,7 +77,7 @@ MONGO_DB=
  ├── 📄 .gitignore    # Git ignore file
  ├── 📄 index.js      # Main bot file
  ├── 📄 package.json  # Dependencies and scripts
- ├── 📄 package-lock.json # Lock file
+ └ 📄 package-lock.json # Lock file
 ```
 
 ---
