@@ -24,7 +24,7 @@ Welcome to the official Discord bot created by **Meeeddx** and maintained by **L
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ryvornyx/Logic-Template.git
+   git clone https://github.com/meeeddx/Logic-Template.git
    cd Logic-Template
    ```
 2. Install dependencies:
@@ -88,7 +88,7 @@ Feel free to contribute by submitting pull requests or opening issues. We apprec
 ---
 
 ## Credits
-**Developed by:** Ryvornex Feitan  
+**Developed by:** Meeeddx  
 **Maintained by:** Logic Team  
 **Built with:** JavaScript, Discord.js, Mongoose, SQLite3
 
