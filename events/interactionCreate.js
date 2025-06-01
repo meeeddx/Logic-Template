@@ -1,4 +1,4 @@
-const { EmbedBuilder } = require("discord.js");
+const { TextDisplayBuilder, ContainerBuilder, MessageFlags } = require("discord.js");
 
 module.exports = {
   name: "interactionCreate",
@@ -14,12 +14,13 @@ module.exports = {
         await command.execute(interaction);
       } catch (error) {
         console.error(error);
-        const errorEmbed = new EmbedBuilder()
-          .setColor("Red")
-          .setDescription(
-            "Oops! Something went wrong while processing your request. If this issue persists, please [contact Support](https://discord.gg/2EKYrZ4nbP)."
-          );
-        await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
+        const errorMessage = new ContainerBuilder()
+          .setAccentColor(16711680)
+          .addTextDisplayComponents(
+            new TextDisplayBuilder()
+              .setContent(`⚠️ Oops! Something went wrong while processing your request.`)
+          )
+        await interaction.reply({ components: [errorMessage], flags: MessageFlags.IsComponentsV2 });
       }
     }
   },

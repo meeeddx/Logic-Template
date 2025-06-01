@@ -1,5 +1,5 @@
 require("dotenv").config();
-const { EmbedBuilder } = require("discord.js");
+const { TextDisplayBuilder, ContainerBuilder, MessageFlags } = require("discord.js");
 const { getPrefix } = require("../db/Prefix");
 
 module.exports = {
@@ -27,13 +27,14 @@ module.exports = {
     } catch (error) {
       console.error("Error processing message:", error);
 
-      const errorEmbed = new EmbedBuilder()
-        .setColor("Yellow")
-        .setDescription(
-          `⚠️ Oops! Something went wrong while processing your request. If this issue persists, please **[Contact Support](https://discord.gg/2EKYrZ4nbP)**.`
-        );
+      const errorMessage = new ContainerBuilder()
+        .setAccentColor(16776960) // Yellow color
+        .addTextDisplayComponents(
+          new TextDisplayBuilder()
+          .setContent(`⚠️ Oops! Something went wrong while processing your request.`)
+        )
 
-      await message.reply({ embeds: [errorEmbed] });
+      await message.reply({ components: [errorMessage], flags: MessageFlags.IsComponentsV2 });
     }
   },
 };
