@@ -1,6 +1,6 @@
-# Logic-Template - Developed by Ryvornex Feitan
+# Logic-Template - Developed by Meeeddx
 
-Welcome to the official Discord bot created by **Ryvornex Feitan** and maintained by **Logic Team**. This bot is designed for easy use and allows you to implement any command and logic seamlessly. It is built using **JavaScript, Discord.js, Mongoose, and SQLite3**.
+Welcome to the official Discord bot created by **Meeeddx** and maintained by **Logic Team**. This bot is designed for easy use and allows you to implement any command and logic seamlessly. It is built using **JavaScript, Discord.js, Mongoose, and SQLite3**.
 
 ---
 
