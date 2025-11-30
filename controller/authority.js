@@ -1,4 +1,4 @@
 module.exports = {
-  prefixEnabled: true,
-  slashcmd: true,
+  prefixEnabled: true, //deprecated
+  slashcmd: true, 
 };
