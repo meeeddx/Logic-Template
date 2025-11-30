@@ -1,4 +1,4 @@
-# Logic-Template - Developed by Meeeddx
+# Logic-Template - Developed by Logic Team
 
 Welcome to the official Discord bot created by **Meeeddx** and maintained by **Logic Team**. This bot is designed for easy use and allows you to implement any command and logic seamlessly. It is built using **JavaScript, Discord.js, Mongoose, and SQLite3**.
 
